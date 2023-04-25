@@ -1,0 +1,45 @@
+.login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+
+  .logo_visang {
+    position: fixed;
+    top: 0;
+    left: 20px;
+    height: 80px;
+  }
+
+  .logo {
+    height: 200px;
+  }
+
+  .login-form-item {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    .input_login {
+      width: 370px;
+      height: 50px;
+    }
+  }
+
+  .forgot-password-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+
+    .forgot-password_link {
+      color: #1890ff;
+      cursor: pointer;
+    }
+  }
+
+  .btn-login {
+    height: 50px;
+    width: 370px;
+    margin-left: 0;
+  }
+}

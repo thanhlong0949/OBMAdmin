@@ -1,0 +1,62 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 2px 2px 5px 0 #f0f1f2;
+  padding: 5px 10px 5px 10px;
+  @media (min-width: $grid-breakpoints-md) {
+    padding: 10px 15px 10px 15px;
+  }
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  height: $navbar-height;
+  position: sticky;
+
+  .right-content-wrap {
+    display: flex;
+    align-items: center;
+
+    .title {
+      font-size: 18px;
+      font-weight: 400;
+      color: #8c8c8c;
+    }
+
+    .title_focus {
+      color: #292929;
+    }
+
+    .btn-togger-sidebar {
+      margin-right: 10px;
+      cursor: pointer;
+    }
+  }
+
+  .left-content-wrap {
+    display: flex;
+    align-items: center;
+
+    .select-lang {
+      margin-right: 25px;
+      cursor: pointer;
+      font-size: 14px;
+      font-weight: 700;
+
+      .lang {
+        color: #f23e5d;
+        margin-left: 10px;
+        margin-right: 20px;
+      }
+    }
+
+    .user-wrap {
+      cursor: pointer;
+    }
+
+    .user-name {
+      margin-left: 10px;
+    }
+  }
+}
